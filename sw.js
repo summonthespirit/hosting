@@ -1,4 +1,4 @@
-importScripts("https://cdn.jsdelivr.net/gh/summonthespirit/hosting/scramjet.all.js");
+importScripts("https://cdn.jsdelivr.net/gh/summonthespirit/hosting@main/s.all.js");
 const { ScramjetServiceWorker } = $scramjetLoadWorker();
 const scramjet = new ScramjetServiceWorker()
 async function handleRequest(event) {
